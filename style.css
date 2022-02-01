@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(35deg, #000428, #004e92);
+}
+
+.wrapper {
+  padding: 50px;
+  width: 800px;
+  max-width: 93%;
+  max-height: 50%;
+  background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+  color:#fff;
+  text-align: center;
+  border: 1px solid #1c232d;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #1c232d;
+}
+
+.wrapper h1 {
+  margin-bottom: 10px;
+  font-size: 1.2rem
+}
+
+.wrapper p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+.app-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-left, .section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-body input {
+margin-bottom: 10px;
+width: 100%;
+font-size: 1.5rem
+}
+
+.app-body input, .app-body select {
+  color: #fff;
+border: none;
+background: none;
+text-align: center;
+}
+
+.app-body select {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.app-body input:focus, .app-body select:focus {
+  outline: none;
+  color: rgb(67, 171, 255);
+}
+
+.swap {
+  align-self: flex-end;
+  margin: 5px;
+  padding: 5px 30px;
+  background-image: linear-gradient(45deg, #4B79A1, #283E51);
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  color:#fff;
+  cursor: pointer;
+}
+
+.swap:focus {
+  outline: none;
+  background-image: linear-gradient(45deg, #317fcc, #1fc06a);
+}
+
+.wrapper .rate-info {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
